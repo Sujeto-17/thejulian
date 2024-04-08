@@ -1,0 +1,12 @@
+CREA EL MODELO DE LA TABLA, CONTROLLER Y LA MIGRACION PARA CREAR LOS CAMPOS DE TABLAS
+php artisan make:model Post -mc
+
+
+Refresca los nuevos campos de una tabla existente
+php artisan migrate:refresh
+
+Me crea controlador y modelo para funciones crud
+php artisan make:controller PeriodoController --resource --model=Periodo
+
+Permite crear modelos
+php artisan make:model Venta
